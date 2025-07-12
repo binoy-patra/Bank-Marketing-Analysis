@@ -1,0 +1,34 @@
+Business Questions to Solve
+
+Customer Segmentation & Profiling
+1. Which customer segments are most likely to subscribe to a term deposit?
+    By age, job, marital status, or education level.
+    Identify high-conversion personas (e.g., "single graduates aged 30–40 in management").
+2. Does financial background (e.g., balance, loan status) affect subscription likelihood?
+    Are customers with higher average balances more likely to subscribe?
+    What’s the trend among those with housing or personal loans?
+
+Campaign Strategy & Contact Effectiveness
+3. What is the most effective contact communication type (cellular vs telephone)?
+4. Which months have the highest subscription success rates?
+    Are some months or seasons better for running campaigns?
+5. How does the number of contacts (`campaign`) impact conversion?
+    Is there a point where more calls reduce effectiveness? (e.g., over-contacting leads to rejection)
+6. Does previous contact outcome influence current campaign success?
+    How much more likely are clients to subscribe if they had a `poutcome = success`?
+
+Timing & Behavior Analysis
+7. Is call duration an indicator of success?
+    Do longer conversations correlate with higher subscription rates?
+   > Note: Don't use this in prediction due to leakage, but it's valuable insight for campaign planning.
+8. Are clients contacted for the first time (`pdays = -1`) more or less likely to subscribe than those re-contacted?
+
+Psychographic Insights & Risk Analysis
+9. Do customers with `default = yes` or loans exhibit lower trust or interest in term deposits?
+10. Are there demographic groups (e.g., retirees, students) that show unusual behavior or outliers in success rates?
+
+Operational Questions
+11. How can we optimize the number of contacts to balance cost and conversions?
+ Ideal campaign length for high ROI.
+12. Which customer attributes should the bank prioritize for lead scoring and targeting in future campaigns?
+ Develop a data-driven customer targeting strategy.
